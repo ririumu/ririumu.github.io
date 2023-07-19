@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My GitHub Pages Site</title>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>@ririumu</title>
 </head>
 <body>
-  <h1>Hello, World!</h1>
-  <script src="index.js"></script>
+<p>Hi, this is ririumu.</p>
+<!-- SPA section -->
+<div id="main"></div>
+<script src="index.js"></script>
+<!-- JSX section -->
+<script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<script type="text/babel">
+  const elem: HTMLElement = <div>Hello, World!</div>;
+  console.log(elem);
+</script>
 </body>
 </html>

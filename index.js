@@ -1,1 +1,1 @@
-console.log("Hello, World!");
+const main = document.getElementById("main");
