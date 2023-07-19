@@ -1,3 +1,3 @@
-const elem: HTMLElement = <div>Hello, World!</div>;
-const main: HTMLElement = document.getElementById("main");
-ReactDOM.createRoot(main).render(elem);
+const app: HTMLElement = <div>Yorosiku onegai simasu.</div>;
+const root: HTMLElement = document.getElementById("main");
+ReactDOM.createRoot(root).render(app);
