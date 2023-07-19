@@ -1,2 +1,0 @@
-# ririumu.github.io
-hi
