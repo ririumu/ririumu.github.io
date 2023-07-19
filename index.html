@@ -5,17 +5,20 @@
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>@ririumu</title>
 </head>
+<!-- このホームページは色々工事中です。。 -->
 <body>
+<!-- Tpl section -->
 <p>Hi, this is ririumu.</p>
-<!-- SPA section -->
 <div id="main"></div>
-<script src="index.js"></script>
-<!-- JSX section -->
+<!-- Dep section -->
 <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script src="https://unpkg.com/react@18/umd/react-dom.development.js"></script>
 <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+<!-- App section -->
 <script type="text/babel">
-  const elem: HTMLElement = <div>Hello, World!</div>;
-  console.log(elem);
+const elem: HTMLElement = <div>Hello, World!</div>;
+const main: HTMLElement = document.getElementById("main");
+ReactDOM.createRoot(main).reander(elem);
 </script>
 </body>
 </html>
