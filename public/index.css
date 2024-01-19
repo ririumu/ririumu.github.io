@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #b0e0e6;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+}
+
+#lilium {
+  color: #008080;
+  font-size: 36px;
+}
+
+h2 {
+  color: #008080;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+a {
+  color: #008080;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #006060;
+}
