@@ -1,2 +1,1 @@
-https://ririumu.github.io/
-https://ghp.ririumu.me/
+https://ririumu.github.io/ -> https://ghp.ririumu.me/
